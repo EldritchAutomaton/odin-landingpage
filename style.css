@@ -105,7 +105,7 @@ button {
 
 .lightgraycontainer {
     display: flex;
-    background-color: #aeb7c4;
+    background-color: #d3d9e2;
     min-height: 500px;
     justify-content: center;
 
@@ -181,4 +181,54 @@ button {
     min-height: 350px;
     justify-content: center;
 
+}
+
+.bluecontainer {
+    display: flex;
+    background-color: #3882f6;
+    width: 75%;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    border-radius: 10px;
+    flex-wrap: nowrap;
+    
+}
+
+.calltoactiondiv {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calltoactiontext {
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+}
+
+.calltoactionsubtext {
+    color: white;
+}
+
+#lastbutton {
+    border: 2px solid white;
+    font-size: 16px;
+    white-space: nowrap;
+    width: 125px;
+    font-weight: bold;
+}
+
+.bottomfooter {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+
+}
+
+.copyright {
+    color: white;
 }
